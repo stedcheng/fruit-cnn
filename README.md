@@ -8,28 +8,30 @@ Color is a commonly used visual cue for assessing fruit freshness, which is a co
 
 {ClassName} represents the 16 classes used in our study, composed of eight fruits (apple, banana, grape, guava, jujube, orange, pomegranate, strawberry), each of which has two freshness levels (fresh and rotten).
 
-└── fruit-cnn/
-    ├── ColorVariants/
-    │   └── {VariantName}/ (x 6)
-    │       └── {ClassName}/ (x 16)
-    │           └── {ClassName} ({Index}).jpg (x 50)
-    ├── Models/
-    │   └── cnn_{VariantName}.keras (x 6)
-    ├── Results/
-    │   ├── accuracies.png
-    │   ├── confusion_matrices.png
-    │   ├── variants.png
-    │   ├── SelectedImages/
-    │   │   └── {ClassName}.png (x 16)
-    │   └── SelectedSeamCarvedImages/
-    │       └── {ClassName}.png (x 16)
-    ├── SeamCarvedImages/
-    │   └── {ClassName}/ (x 16)
-    │       └── {ClassName} ({Index}).jpg (x 50)
-    ├── MATH 282.1 Project (Cheng, Montemayor).pdf
-    ├── p2.ipynb
-    ├── README.txt
-    └── requirements.txt
+```text
+fruit-cnn/
+├── ColorVariants/
+│   └── {VariantName}/ (x 6)
+│       └── {ClassName}/ (x 16)
+│           └── {ClassName} ({Index}).jpg (x 50)
+├── Models/
+│   └── cnn_{VariantName}.keras (x 6)
+├── Results/
+│   ├── accuracies.png
+│   ├── confusion_matrices.png
+│   ├── variants.png
+│   ├── SelectedImages/
+│   │   └── {ClassName}.png (x 16)
+│   └── SelectedSeamCarvedImages/
+│       └── {ClassName}.png (x 16)
+├── SeamCarvedImages/
+│   └── {ClassName}/ (x 16)
+│       └── {ClassName} ({Index}).jpg (x 50)
+├── MATH 282.1 Project (Cheng, Montemayor).pdf
+├── p2.ipynb
+├── README.txt
+└── requirements.txt
+```
     
 <h2>Credits</h2>
 This project was created by Sted Cheng and Annika Montemayor, and submitted as a requirement for the course <b>MATH 282.1: Computer Vision</b> taken in the first semester of AY 2025-2026 in Ateneo de Manila University. 
